@@ -73,7 +73,7 @@ while True:
             if box.collidepoint(pygame.mouse.get_pos()):
                 pygame.quit()
                 sys.exit()
-    if(GPIO.input(inputButtonOne) = False):
+    if(GPIO.input(inputButtonOne) == False):
         pygame.quit()
         sys.exit()
         quit()
